@@ -9,9 +9,11 @@ const listadoContacto = document.querySelector('.lista-tareas')
 
 const db = window.localStorage
 
+let contador = 0;
+
 btnAgregar.onclick = () => {
   let contacto = {
-    id: Math.random(1,100),
+    id: contador++,
     nombre: nombre.value,
     apellido: apellido.value,
     telefono: telefono.value,

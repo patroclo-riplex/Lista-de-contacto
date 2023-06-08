@@ -73,6 +73,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: 2rem;
+    margin-bottom: 3rem;
 }
 
 .icono {
